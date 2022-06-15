@@ -1,0 +1,19 @@
+.chain-container {
+  .chain-col {
+    @include container-vertical-spacing;
+  }
+}
+
+.layout-section {
+  @include container-vertical-spacing;
+}
+
+// Used to remove the extra margin on layouts when the class
+// .layout-section is used on nested containers
+.wrap-bottom {
+  margin-bottom: -#{map-get($spacers, 'lg')} !important;
+  @media screen and (min-width: map-get($grid-breakpoints, 'md')) {
+    margin-bottom: -#{map-get($spacers, 'md')} !important;
+  }
+}
+

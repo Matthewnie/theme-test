@@ -1,0 +1,12 @@
+{
+  "title": "News Theme CSS",
+  "source": [
+    "scss/"
+  ],
+  "homepage": "./scss/homepage.md",
+  "destination": "styleguide/",
+  "builder": "michelangelo/kss_styleguide/custom-template/",
+  "css": [
+    "css/index.css"
+  ]
+}
